@@ -1,16 +1,11 @@
-import { Inter } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const roboto = Roboto_Slab({
   subsets: ["latin"],
+  weight: "500",
   display: "swap",
   variable: "--font-sans",
-});
-const tomorow = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-heading",
-  weight: ["500"],
 });
 
 export default function RootLayout({
@@ -20,10 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${(inter.variable, tomorow.variable)} `}>
-        {children}
-      </body>
+      <body className={`${roboto.variable}`}>{children}</body>
     </html>
   );
 }
-

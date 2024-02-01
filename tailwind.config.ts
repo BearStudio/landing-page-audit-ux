@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
   content: [
@@ -19,12 +18,10 @@ const config: Config = {
         secondary: "#1A444E",
       },
       fontFamily: {
-        sans: ['"var(--font-sans)"', ...defaultTheme.fontFamily.sans],
-        heading: ["var(--font-heading)", ...defaultTheme.fontFamily.sans],
+        TrashHand: ["TrashHand", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
 export default config;
-
