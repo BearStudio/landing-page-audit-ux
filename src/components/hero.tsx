@@ -21,9 +21,9 @@ export default function HeroSection() {
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover blur-sm"
         />
-        <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-70"></div>
+        <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-85"></div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
-          <h1 className="text-4xl font-bold tracking-wider font-TrashHand text-white sm:text-6xl">
+          <h1 className="text-4xl font-bold tracking-wider font-TrashHand text-primary sm:text-6xl">
             Votre produit : au top des standards de l&apos;UX ?
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
