@@ -14,6 +14,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: "#E6AA08",
+        secondary: "#1A444E",
+      },
       fontFamily: {
         sans: ['"var(--font-sans)"', ...defaultTheme.fontFamily.sans],
         heading: ["var(--font-heading)", ...defaultTheme.fontFamily.sans],
@@ -23,3 +27,4 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
