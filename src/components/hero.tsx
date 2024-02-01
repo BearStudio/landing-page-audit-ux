@@ -6,7 +6,7 @@ import teamPic from "@/assets/images/team.jpg";
 
 export default function HeroSection() {
   return (
-    <div className="bg-gray-900">
+    <main className="bg-gray-900">
       <header className="absolute inset-x-0 top-0 z-50 bg-secondary py-4">
         <Icon
           className="h-10 w-auto px-4"
@@ -15,14 +15,14 @@ export default function HeroSection() {
         />
       </header>
 
-      <div className="relative isolate overflow-hidden pt-14">
+      <article className="relative isolate overflow-hidden pt-14">
         <Image
           src={teamPic}
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover blur-sm"
         />
         <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-85"></div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
+        <section className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
           <h1 className="text-4xl font-bold tracking-wider font-TrashHand text-primary sm:text-6xl">
             Votre produit : au top des standards de l&apos;UX ?
           </h1>
@@ -31,7 +31,7 @@ export default function HeroSection() {
             vraiment en quoi cela consiste ? Laissez vous guider par l’équipe du
             BearStudio !
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <section className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
               className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
@@ -44,9 +44,9 @@ export default function HeroSection() {
             >
               En savoir plus <span aria-hidden="true">→</span>
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
+          </section>
+        </section>
+      </article>
+    </main>
   );
 }
