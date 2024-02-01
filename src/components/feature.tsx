@@ -27,9 +27,9 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+    <article className="bg-white py-24 sm:py-32">
+      <section className="mx-auto max-w-7xl px-6 lg:px-8">
+        <section className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-wider font-TrashHand text-gray-900 sm:text-4xl">
             Pourquoi faire un de nos audit UX ?
           </h2>
@@ -40,11 +40,11 @@ export default function FeatureSection() {
             projet dans les « pattes » de nos experts UX et laissez-les vous
             guider pour améliorer vos interfaces.
           </p>
-        </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        </section>
+        <section className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name} className="flex flex-col">
+              <section key={feature.name} className="flex flex-col">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
                     <feature.icon
@@ -57,11 +57,11 @@ export default function FeatureSection() {
                 <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                 </dd>
-              </div>
+              </section>
             ))}
           </dl>
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </article>
   );
 }

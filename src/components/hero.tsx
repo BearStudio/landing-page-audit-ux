@@ -1,7 +1,6 @@
 import Icon from "next/image";
 import Image from "next/image";
 import logo from "../assets/images/logo.svg";
-import Link from "next/link";
 import teamPic from "@/assets/images/team.jpg";
 
 export default function HeroSection() {
@@ -11,14 +10,14 @@ export default function HeroSection() {
         <Icon
           className="h-10 w-auto px-4"
           src={logo}
-          alt="logo of the company"
+          alt="logo du BearStudio"
         />
       </header>
 
       <article className="relative isolate overflow-hidden pt-14">
         <Image
           src={teamPic}
-          alt=""
+          alt="Une partie de la team du BearStudio"
           className="absolute inset-0 -z-10 h-full w-full object-cover blur-sm"
         />
         <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-85"></div>
