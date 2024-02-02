@@ -3,7 +3,7 @@ export default function CTASection1() {
     <div className="bg-white">
       <article className="mx-auto max-w-7xl relative isolate overflow-hidden bg-secondary py-24 text-center shadow-2xl sm:rounded-3xl ">
         <h2 className="mx-auto max-w-2xl text-4xl tracking-wider font-TrashHand text-primary sm:text-5xl">
-          Pas encore tout à fait convaincu ?
+          Pas encore convaincu ?
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
           Optez pour un de nos mini audit UX : pour faire une analyse de votre

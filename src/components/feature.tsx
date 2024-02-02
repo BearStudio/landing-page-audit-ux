@@ -20,7 +20,7 @@ const features = [
   {
     name: "Adoption du User-Centered Design (UCD)",
     description:
-      "L'audit UX s'inscrit dans la tendance incontournable de l’UCD, alignant votre produit sur les attentes des utilisateurs pour une satisfaction accrue. Cela renforce sa position en tant que solution moderne et axée sur l'utilisateur, s'adaptant efficacement aux évolutions du marché numérique.",
+      "L'audit UX s'inscrit dans la tendance incontournable du UCD, alignant votre produit sur les attentes des utilisateurs pour une satisfaction accrue. Cela renforce sa position en tant que solution moderne et axée sur l'utilisateur, s'adaptant efficacement aux évolutions du marché numérique.",
     icon: FaceSmileIcon,
   },
 ];
@@ -30,7 +30,7 @@ export default function FeatureSection() {
     <article className="bg-white py-24">
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
         <section className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-wider font-TrashHand text-secondary sm:text-4xl">
+          <h2 className="text-3xl tracking-wider font-TrashHand text-secondary sm:text-4xl">
             Pourquoi faire un de nos audit UX ?
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -45,7 +45,7 @@ export default function FeatureSection() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <section key={feature.name} className="flex flex-col">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-semibold leading-7 text-secondary">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
                     <feature.icon
                       className="h-6 w-6 text-white"

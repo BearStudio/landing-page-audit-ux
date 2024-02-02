@@ -24,7 +24,7 @@ export default function DeliverableSection() {
     <div className="overflow-hidden bg-white py-24">
       <article className="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-1 gap-x-24 lg:grid-cols-2">
         <section className="lg:ml-auto lg:pl-4 lg:pt-4 lg:max-w-lg">
-          <h2 className="mt-2 text-3xl font-bold font-TrashHand tracking-wider text-gray-900 sm:text-4xl">
+          <h2 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-4xl">
             A quoi ressemblera votre audit UX ?
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -40,7 +40,7 @@ export default function DeliverableSection() {
           <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-9">
-                <dt className="inline font-semibold text-gray-900">
+                <dt className="inline font-semibold text-secondary">
                   <Icon
                     src={feature.icon}
                     alt=""
