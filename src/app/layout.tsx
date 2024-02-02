@@ -14,7 +14,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="fr">
+      <head>
+        <title>Audit UX</title>
+        <meta
+          name="description"
+          content="Vous voulez améliorer l'UX de votre projet ?"
+        ></meta>
+      </head>
       <body className={`${roboto.variable}`}>{children}</body>
     </html>
   );
