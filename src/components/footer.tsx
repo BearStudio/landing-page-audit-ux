@@ -1,5 +1,6 @@
 import Icon from "next/image";
 import logo from "@/assets/images/logo.svg";
+import logoSmall from "@/assets/images/logoSmall.svg";
 
 const navigation = [
   {
@@ -97,6 +98,11 @@ const navigation = [
       </svg>
     ),
   },
+  {
+    name: "Site BearStudio",
+    href: "https://www.bearstudio.fr/",
+    icon: (props: any) => <Icon alt="" src={logoSmall} className=" w-6" />,
+  },
 ];
 
 export default function FooterSection() {
@@ -109,6 +115,7 @@ export default function FooterSection() {
               key={item.name}
               href={item.href}
               className="text-primary hover:opacity-70"
+              target="_blank"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />

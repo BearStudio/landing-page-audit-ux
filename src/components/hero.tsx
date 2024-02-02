@@ -18,7 +18,7 @@ export default function HeroSection() {
         <Image
           src={teamPic}
           alt="Une partie de la team du BearStudio"
-          className="absolute inset-0 -z-10 h-full w-full object-cover blur-sm"
+          className="absolute inset-0 -z-10 h-full w-full object-cover blur-sm grayscale"
         />
         <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-85"></div>
         <section className="mx-auto max-w-2xl py-24 sm:py-32 lg:py-40 text-center">
@@ -33,7 +33,7 @@ export default function HeroSection() {
           <section className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="rounded-md bg-primary px-3.5 py-2.5 text-sm text-secondary font-semibold shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Contactez-nous
             </a>

@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import React from "react";
 
 const faqs = [
@@ -75,25 +75,29 @@ const faqs = [
 export default function FAQSection() {
   return (
     <div className="bg-white">
-      <article className="mx-auto max-w-7xl px-6 py-32 lg:px-8 divide-y divide-gray-900/10">
-        <h2 className="text-3xl font-bold font-TrashHand leading-10 tracking-wider text-gray-900 sm:text-4xl">
+      <article className="mx-auto max-w-3xl px-6 py-32 lg:px-8">
+        <h2 className="text-4xl font-TrashHand leading-10 tracking-wider text-secondary text-center sm:text-5xl">
           Questions fréquentes sur l’UX
         </h2>
-        <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
+        <dl className="mt-10">
           {faqs.map((faq) => (
             <Disclosure as="div" key={faq.question} className="pt-6">
               {({ open }) => (
                 <>
                   <dt>
-                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-2">
-                      <h3 className="text-xl font-semibold leading-7">
-                        {faq.question}
-                      </h3>
+                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-4 rounded-lg">
+                      <h3 className="text-xl leading-7">{faq.question}</h3>
                       <figure className="ml-6 flex h-7 items-center">
                         {open ? (
-                          <MinusIcon className="h-6 w-6" aria-hidden="true" />
+                          <ChevronUpIcon
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
                         ) : (
-                          <PlusIcon className="h-6 w-6" aria-hidden="true" />
+                          <ChevronDownIcon
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
                         )}
                       </figure>
                     </Disclosure.Button>
