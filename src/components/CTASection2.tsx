@@ -18,8 +18,9 @@ export default function CTASection1() {
               Contactez-nous
             </a>
             <a
-              href="https://www.bearstudio.fr/prestations/ux-design/audit-ux"
+              href="https://www.bearstudio.fr/demandez-votre-mini-audit-ux-gratuit"
               className="text-sm font-semibold leading-6 text-white"
+              target="_blank"
             >
               En savoir plus <span aria-hidden="true">→</span>
             </a>
