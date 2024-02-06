@@ -27,7 +27,7 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <article className="bg-white py-24">
+    <article className="bg-white py-12">
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
         <section className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl tracking-wider font-TrashHand text-secondary sm:text-4xl">
@@ -41,7 +41,7 @@ export default function FeatureSection() {
             guider pour améliorer vos interfaces.
           </p>
         </section>
-        <section className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <section className="mx-auto mt-12 max-w-2xl lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <section key={feature.name} className="flex flex-col">

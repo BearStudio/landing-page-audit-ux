@@ -1,27 +1,30 @@
-import clipboard from "@/assets/images/clipboard-icon.svg";
-import content from "@/assets/images/content-icon.svg";
-import pdf from "@/assets/images/pdf-icon-1.svg";
+import {
+  ClipboardDocumentListIcon,
+  ShareIcon,
+  HandThumbUpIcon,
+} from "@heroicons/react/24/outline";
+
 import deliverable from "@/assets/images/livrable-auditux.svg";
 import Image from "next/image";
 import Icon from "next/image";
 const features = [
   {
     name: "Une présentation en direct des résultats.",
-    icon: clipboard,
+    icon: ClipboardDocumentListIcon,
   },
   {
     name: "Nos recommandations d’action",
-    icon: content,
+    icon: HandThumbUpIcon,
   },
   {
     name: "Le fichier PDF de l’audit",
-    icon: pdf,
+    icon: ShareIcon,
   },
 ];
 
 export default function DeliverableSection() {
   return (
-    <div className="overflow-hidden bg-white py-24">
+    <div className="overflow-hidden bg-white">
       <article className="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-1 gap-x-24 lg:grid-cols-2">
         <section className="lg:ml-auto lg:pl-4 lg:pt-4 lg:max-w-lg">
           <h2 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-4xl">
@@ -41,10 +44,8 @@ export default function DeliverableSection() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-9">
                 <dt className="inline font-semibold text-secondary">
-                  <Icon
-                    src={feature.icon}
-                    alt=""
-                    className="absolute left-1 top-1 h-5 w-5"
+                  <feature.icon
+                    className="absolute left-0 top-1 h-6 w-6"
                     aria-hidden="true"
                   />
                   {feature.name}

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
   content: [
@@ -19,6 +20,7 @@ const config: Config = {
       },
       fontFamily: {
         TrashHand: ["TrashHand", "sans-serif"],
+        sans: ['"var(--font-sans)"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

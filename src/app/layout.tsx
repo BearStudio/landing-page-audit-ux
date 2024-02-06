@@ -3,7 +3,6 @@ import "./globals.css";
 
 const roboto = Roboto_Slab({
   subsets: ["latin"],
-  weight: "500",
   display: "swap",
   variable: "--font-sans",
 });

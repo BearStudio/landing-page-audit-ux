@@ -75,8 +75,8 @@ const faqs = [
 export default function FAQSection() {
   return (
     <div className="bg-white">
-      <article className="mx-auto max-w-3xl px-6 py-32 lg:px-8">
-        <h2 className="text-4xl font-TrashHand leading-10 tracking-wider text-secondary text-center sm:text-5xl">
+      <article className="mx-auto max-w-3xl px-6 py-24 lg:px-8">
+        <h2 className="text-3xl font-TrashHand leading-10 tracking-wider text-secondary text-center sm:text-5xl">
           Questions fréquentes sur l’UX
         </h2>
         <dl className="mt-10">
@@ -85,8 +85,10 @@ export default function FAQSection() {
               {({ open }) => (
                 <>
                   <dt>
-                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-4 rounded-lg">
-                      <h3 className="text-xl leading-7">{faq.question}</h3>
+                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-3 lg:p-4 rounded-lg">
+                      <h3 className="text-md lg:text-xl leading-7">
+                        {faq.question}
+                      </h3>
                       <figure className="ml-6 flex h-7 items-center">
                         {open ? (
                           <ChevronUpIcon
