@@ -92,12 +92,12 @@ export default function FAQSection() {
                       <figure className="ml-6 flex h-7 items-center">
                         {open ? (
                           <ChevronUpIcon
-                            className="h-6 w-6"
+                            className="h-5 w-5"
                             aria-hidden="true"
                           />
                         ) : (
                           <ChevronDownIcon
-                            className="h-6 w-6"
+                            className="h-5 w-5"
                             aria-hidden="true"
                           />
                         )}
@@ -105,9 +105,9 @@ export default function FAQSection() {
                     </Disclosure.Button>
                   </dt>
                   <Disclosure.Panel as="dd" className="mt-2 pr-12 text-lg">
-                    {faq.answer.split("\n").map((paragraph, index) => (
+                    {faq.answer.split("\n").map((paragraph) => (
                       <>
-                        <p key={index} className="mb-4">
+                        <p key={paragraph} className="mb-4">
                           {paragraph}
                         </p>
                       </>

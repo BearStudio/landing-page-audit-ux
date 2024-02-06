@@ -2,7 +2,7 @@ export default function UXMatterSection() {
   return (
     <div className="bg-white py-24">
       <article className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-4xl">
+        <h1 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-5xl">
           L’UX : un sujet à ne surtout pas négliger !
         </h1>
         <section className="mt-10 grid grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:grid-cols-2">
@@ -46,7 +46,7 @@ export default function UXMatterSection() {
         </section>
         <section className="mt-10 lg:mt-4 flex">
           <a
-            href="#"
+            href="mailto:contact@bearstudio.fr"
             className="rounded-md bg-secondary px-3.5 py-2.5 text-md lg:text-xl font-semibold text-white shadow-sm hover:opacity-80"
           >
             Contactez-nous

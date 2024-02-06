@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={`${roboto.variable}`}>
       <head>
         <title>Audit UX</title>
         <meta
@@ -21,7 +21,7 @@ export default function RootLayout({
           content="Vous voulez améliorer l'UX de votre projet ?"
         ></meta>
       </head>
-      <body className={`${roboto.variable}`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

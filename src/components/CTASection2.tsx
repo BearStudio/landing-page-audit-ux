@@ -11,12 +11,6 @@ export default function CTASection1() {
         </p>
         <section className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
-            className="rounded-md bg-primary px-3.5 py-2.5 text-md lg:text-xl font-semibold text-secondary shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-          >
-            Contactez-nous
-          </a>
-          <a
             href="https://www.bearstudio.fr/demandez-votre-mini-audit-ux-gratuit"
             className="text-md lg:text-xl font-semibold leading-6 text-white"
             target="_blank"

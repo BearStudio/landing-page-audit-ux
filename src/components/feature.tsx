@@ -30,10 +30,10 @@ export default function FeatureSection() {
     <article className="bg-white py-4">
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
         <section className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl tracking-wider font-TrashHand text-secondary sm:text-4xl">
+          <h2 className="text-3xl tracking-wider font-TrashHand text-secondary sm:text-5xl">
             Pourquoi faire un de nos audit UX ?
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-md leading-8 text-gray-600">
             Vous voulez améliorer l’expérience proposée par votre produit ?
             Votre interface ne semble pas adaptée aux besoins des utilisateurs ?
             Vous souhaitez booster la qualité de votre produit ? Remettez votre

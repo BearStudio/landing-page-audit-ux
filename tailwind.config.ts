@@ -20,7 +20,7 @@ const config: Config = {
       },
       fontFamily: {
         TrashHand: ["TrashHand", "sans-serif"],
-        sans: ['"var(--font-sans)"', ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-sans)", ...defaultTheme.fontFamily.sans],
       },
     },
   },
