@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <UXMatterSection />
       <FeatureSection />
       <CTASection1 />
-      <UXMatterSection />
       <DeliverableSection />
       <CTASection2 />
       <FAQSection />

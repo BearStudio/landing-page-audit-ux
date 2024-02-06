@@ -6,7 +6,6 @@ import {
 
 import deliverable from "@/assets/images/livrable-auditux.svg";
 import Image from "next/image";
-import Icon from "next/image";
 const features = [
   {
     name: "Une présentation en direct des résultats.",
@@ -24,7 +23,7 @@ const features = [
 
 export default function DeliverableSection() {
   return (
-    <div className="overflow-hidden bg-white">
+    <div className="overflow-hidden bg-white py-12">
       <article className="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-1 gap-x-24 lg:grid-cols-2">
         <section className="lg:ml-auto lg:pl-4 lg:pt-4 lg:max-w-lg">
           <h2 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-4xl">
