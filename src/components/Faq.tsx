@@ -104,7 +104,10 @@ export default function FAQSection() {
                       </figure>
                     </Disclosure.Button>
                   </dt>
-                  <Disclosure.Panel as="dd" className="mt-2 pr-12 text-lg">
+                  <Disclosure.Panel
+                    as="dd"
+                    className="mt-2 pr-12 text-lg text-gray-800"
+                  >
                     {faq.answer.split("\n").map((paragraph) => (
                       <>
                         <p key={paragraph} className="mb-4">
