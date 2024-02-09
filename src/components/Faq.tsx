@@ -110,7 +110,7 @@ export default function FAQSection() {
                   >
                     {faq.answer.split("\n").map((paragraph) => (
                       <>
-                        <p key={paragraph} className="mb-4">
+                        <p key={paragraph} className="mb-4 ml-8">
                           {paragraph}
                         </p>
                       </>
