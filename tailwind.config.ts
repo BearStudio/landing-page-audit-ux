@@ -15,12 +15,13 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: "#F9C515",
-        secondary: "#1A444E",
+        primary: "#AFD4F3",
+        secondary: "#1d3974",
       },
       fontFamily: {
         TrashHand: ["TrashHand", "sans-serif"],
         sans: ["var(--font-sans)", ...defaultTheme.fontFamily.sans],
+        heading: ["var(--font-heading)", ...defaultTheme.fontFamily.sans],
       },
     },
   },

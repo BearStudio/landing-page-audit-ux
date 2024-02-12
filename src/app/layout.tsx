@@ -1,10 +1,17 @@
-import { Roboto_Slab } from "next/font/google";
+import { Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto_Slab({
+const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-sans",
+  weight: "400",
+});
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-heading",
+  weight: "600",
 });
 
 export default function RootLayout({
@@ -13,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${roboto.variable}`}>
+    <html lang="fr" className={`${roboto.variable} ${poppins.variable}`}>
       <head>
         <title>Audit UX</title>
         <meta

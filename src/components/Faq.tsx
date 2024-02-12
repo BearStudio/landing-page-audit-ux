@@ -76,7 +76,7 @@ export default function FAQSection() {
   return (
     <div className="bg-white">
       <article className="mx-auto max-w-3xl px-6 py-24 lg:px-8">
-        <h2 className="text-3xl font-TrashHand tracking-wide text-secondary text-center sm:text-5xl">
+        <h2 className="text-3xl font-heading text-secondary text-center sm:text-5xl">
           Questions fréquentes sur l’UX
         </h2>
         <dl className="mt-10">

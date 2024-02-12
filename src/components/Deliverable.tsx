@@ -26,7 +26,7 @@ export default function DeliverableSection() {
     <div className="overflow-hidden bg-white py-12">
       <article className="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-1 gap-x-24 lg:grid-cols-2">
         <section className="lg:ml-auto lg:pl-4 lg:pt-4 lg:max-w-lg">
-          <h2 className="mt-2 text-3xl font-TrashHand tracking-wide text-secondary sm:text-5xl">
+          <h2 className="mt-2 text-3xl font-heading text-secondary sm:text-5xl">
             A quoi ressemblera votre audit UX ?
           </h2>
           <p className="mt-6 text-lg text-gray-600">

@@ -29,8 +29,8 @@ export default function FeatureSection() {
   return (
     <article className="bg-white py-4">
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
-        <section className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl tracking-wide font-TrashHand text-secondary sm:text-5xl">
+        <section className="mx-auto max-w-4xl lg:mx-0">
+          <h2 className="text-3xl font-heading text-secondary sm:text-5xl">
             Pourquoi faire un de nos audit UX ?
           </h2>
           <p className="mt-6 text-md text-gray-600">

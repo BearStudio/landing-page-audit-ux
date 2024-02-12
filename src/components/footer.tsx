@@ -98,11 +98,6 @@ const navigation = [
       </svg>
     ),
   },
-  {
-    name: "Site BearStudio",
-    href: "https://www.bearstudio.fr/",
-    icon: (props: any) => <Icon alt="" src={logoSmall} className=" w-6" />,
-  },
 ];
 
 export default function FooterSection() {
@@ -122,12 +117,7 @@ export default function FooterSection() {
             </a>
           ))}
         </section>
-        <Icon
-          className="w-40 mx-auto pt-6 sm:pt-0"
-          src={logo}
-          alt="Logo du BearStudio"
-        ></Icon>
-        <p className="mt-8 md:mt-0 flex-1 text-center text-sm leading-5 text-primary">
+        <p className="mt-8 md:mt-0 flex-1 text-sm leading-5 text-primary">
           &copy; 2024 BearStudio, Tous droits réservés.
         </p>
       </article>
