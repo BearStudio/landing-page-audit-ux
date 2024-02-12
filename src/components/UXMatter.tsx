@@ -2,7 +2,7 @@ export default function UXMatterSection() {
   return (
     <div className="bg-white py-24">
       <article className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="mt-2 text-3xl font-TrashHand tracking-wider text-secondary sm:text-5xl">
+        <h1 className="mt-2 text-3xl font-TrashHand tracking-wide text-secondary sm:text-5xl">
           L’UX : un sujet à ne surtout pas négliger !
         </h1>
         <section className="mt-10 grid grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:grid-cols-2">

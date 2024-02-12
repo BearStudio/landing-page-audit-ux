@@ -128,7 +128,7 @@ export default function FooterSection() {
           alt="Logo du BearStudio"
         ></Icon>
         <p className="mt-8 md:mt-0 flex-1 text-center text-sm leading-5 text-primary">
-          &copy; 2024 BearStudio, Inc. All rights reserved.
+          &copy; 2024 BearStudio, Tous droits réservés.
         </p>
       </article>
     </footer>
