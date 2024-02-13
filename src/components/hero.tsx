@@ -25,6 +25,7 @@ export default function HeroSection() {
             <a
               href="https://www.bearstudio.fr/prestations/ux-design/audit-ux"
               className="rounded-md bg-primary px-3.5 py-2.5 text-md lg:text-xl text-secondary font-semibold shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              target="_blank"
             >
               En savoir plus !
             </a>

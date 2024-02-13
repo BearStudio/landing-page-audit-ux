@@ -4,21 +4,6 @@ import React from "react";
 
 const faqs = [
   {
-    question: "Qu’est-ce qu’un audit UI design ?",
-    answer: `
-    L’UX et l’UI design sont étroitement liés : UI correspond à “user interface” (l’interface utilisateur) et l’UX “user eXperience” à l’optimisation de l’interaction entre l’utilisateur et l’interface.
-
-    L’audit UX est focalisé sur l’optimisation de l’expérience utilisateur par l’UX designer en améliorant l’ergonomie de l’interface utilisateur. Un audit UI est, lui, orienté sur l’amélioration du design graphique et de l’esthétique par l’UI designer.
-    
-    Le but étant de rendre un produit beau et attractif, ce qui, en soit, améliorera également l’expérience utilisateur.
-    
-    Pour réaliser un audit UI, le graphiste travaillera sur l’ensemble de l’identité visuelle : le logo, la typographie, les icônes, les polices, les couleurs, les boutons…
-    
-    L’UI design est important à la fois pour donner envie à l’utilisateur d’utiliser un produit mais aussi pour l’image de marque de l’entreprise.
-    
-    Évidemment l’UI design est loin d’être suffisant pour créer un bon produit. L’aspect UX est primordial pour rendre un produit utilisable, performant et ergonomique. Lors d’un audit UX, nous prenons en compte l’UX et l’UI afin d’optimiser au maximum votre produit.`,
-  },
-  {
     question: "Qu’est-ce qu’un audit ergonomique d’un site internet ?",
     answer: `
     L’audit ergonomique fait partie intégrante de l’audit UX et UI, dans le cadre de l’audit UX/UI d’un site internet, l’audit ergonomique implique un examen de toutes les pages du site afin de déterminer si l’utilisabilité de celles-ci est optimale.

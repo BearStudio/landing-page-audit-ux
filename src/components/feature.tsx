@@ -14,7 +14,7 @@ const features = [
   {
     name: "Augmentation des Taux de Conversion",
     description:
-      "L'audit UX optimise l'expérience utilisateur, réduisant les obstacles à la fidélisation et favorisant une navigation fluide, entraînant une augmentation significative des taux de conversion et stimulant la croissance de votre entreprise.",
+      "L'audit UX optimise l'expérience utilisateur, réduisant les obstacles à la fidélisation et favorisant une navigation fluide, entraînant une augmentation significative des taux de conversion et stimulant la croissance de votre entreprise. Tout ça grâce à un meilleur référencement.",
     icon: ArrowTrendingUpIcon,
   },
   {
@@ -31,14 +31,13 @@ export default function FeatureSection() {
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
         <section className="mx-auto max-w-4xl lg:mx-0">
           <h2 className="text-3xl font-heading text-secondary sm:text-5xl">
-            Pourquoi faire un de nos audit UX ?
+            Pourquoi faire un audit UX ?
           </h2>
           <p className="mt-6 text-md text-gray-600">
             Vous voulez améliorer l’expérience proposée par votre produit ?
             Votre interface ne semble pas adaptée aux besoins des utilisateurs ?
-            Vous souhaitez booster la qualité de votre produit ? Remettez votre
-            projet dans les « pattes » de nos experts UX et laissez-les vous
-            guider pour améliorer vos interfaces.
+            Vous souhaitez booster la qualité de votre produit ? Découvrez ce
+            qu&apos;un expert UX peut vous apporter pour booster votre projet !
           </p>
         </section>
         <section className="mx-auto mt-12 max-w-2xl lg:max-w-none">
