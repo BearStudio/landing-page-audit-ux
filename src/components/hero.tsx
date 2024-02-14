@@ -12,8 +12,8 @@ export default function HeroSection() {
         />
         <div className="absolute inset-0 -z-10 h-full w-full object-cover bg-secondary opacity-85"></div>
         <section className="mx-auto max-w-3xl py-24 sm:py-32 lg:py-40 text-center">
-          <h1 className="text-3xl font-heading text-primary sm:text-6xl">
-            Votre produit : au top des standards de l&apos;UX ?
+          <h1 className="text-3xl font-heading text-primary sm:text-5xl">
+            Qu&apos;est ce qu&apos;un audit UX ?
           </h1>
           <p className="mt-6 text-md lg:text-xl mx-4 font-bold leading-8 text-gray-300">
             Vous pensez avoir besoin d’un audit UX ? Ou vous ne savez pas

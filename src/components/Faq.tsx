@@ -59,9 +59,9 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <div className="bg-white">
-      <article className="mx-auto max-w-3xl px-6 py-24 lg:px-8">
-        <h2 className="text-3xl font-heading text-secondary text-center sm:text-5xl">
+    <div className="bg-white py-16">
+      <article className="mx-auto max-w-3xl px-6 lg:px-8">
+        <h2 className="text-3xl font-heading text-secondary text-center sm:text-4xl">
           Questions fréquentes sur l’UX
         </h2>
         <dl className="mt-10">

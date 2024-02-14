@@ -27,17 +27,18 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <article className="bg-white py-4">
+    <article className="bg-white py-16">
       <section className="mx-auto max-w-7xl px-6 lg:px-8">
         <section className="mx-auto max-w-4xl lg:mx-0">
-          <h2 className="text-3xl font-heading text-secondary sm:text-5xl">
+          <h2 className="text-3xl font-heading text-secondary sm:text-4xl">
             Pourquoi faire un audit UX ?
           </h2>
           <p className="mt-6 text-md text-gray-600">
             Vous voulez améliorer l’expérience proposée par votre produit ?
             Votre interface ne semble pas adaptée aux besoins des utilisateurs ?
             Vous souhaitez booster la qualité de votre produit ? Découvrez ce
-            qu&apos;un expert UX peut vous apporter pour booster votre projet !
+            qu&apos;un expert UX peut vous apporter pour développer votre projet
+            !
           </p>
         </section>
         <section className="mx-auto mt-12 max-w-2xl lg:max-w-none">
