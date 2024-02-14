@@ -117,7 +117,7 @@ export default function FooterSection() {
             </a>
           ))}
         </section>
-        <p className="mt-8 md:mt-0 flex-1 text-sm leading-5 text-primary">
+        <p className="mt-8 md:mt-0 flex-1 text-sm leading-5 text-primary text-center md:text-start">
           &copy; 2024 BearStudio, Tous droits réservés.
         </p>
       </article>
