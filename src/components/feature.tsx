@@ -14,7 +14,7 @@ const features = [
   {
     name: "Augmentation des Taux de Conversion",
     description:
-      "L'audit UX optimise l'expérience utilisateur, réduisant les obstacles à la fidélisation et favorisant une navigation fluide, entraînant une augmentation significative des taux de conversion et stimulant la croissance de votre entreprise. Tout ça grâce à un meilleur référencement.",
+      "L'audit UX optimise l'expérience utilisateur, réduisant les obstacles à la fidélisation et favorisant une navigation fluide, entraînant une augmentation significative des taux de conversion et stimulant la croissance de votre entreprise. Un audit UX peut également améliorer votre référencement.",
     icon: ArrowTrendingUpIcon,
   },
   {

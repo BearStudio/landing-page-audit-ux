@@ -25,12 +25,13 @@ export default function AuditUISection() {
             <strong> l’ensemble de l’identité visuelle</strong> : le logo, la
             typographie, les icônes, les polices, les couleurs, les boutons…
             L’UI design est important à la fois pour donner envie à
-            l’utilisateur d’utiliser un produit mais aussi pour
-            <strong> l’image de marque de l’entreprise</strong>. Évidemment l’UI
-            design est loin d’être suffisant pour créer un bon produit. L’aspect
-            UX est primordial pour rendre un produit utilisable, performant et
-            ergonomique. Lors d’un audit UX, nous prenons en compte l’UX et l’UI
-            afin <strong>d’optimiser au maximum votre produit</strong>.
+            l’utilisateur d’utiliser un produit, mais aussi pour
+            <strong> l’image de marque de l’entreprise</strong>. Évidemment,
+            l’UI design est loin d’être suffisant pour créer un bon produit.
+            L’aspect UX est primordial pour rendre un produit utilisable,
+            performant et ergonomique. Lors d’un audit UX, nous prenons en
+            compte l’UX et l’UI afin{" "}
+            <strong>d’optimiser au maximum votre produit</strong>.
           </p>
         </section>
       </article>

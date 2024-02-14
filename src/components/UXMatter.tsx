@@ -17,7 +17,7 @@ export default function UXMatterSection() {
             </a>{" "}
             (Référentiel général d&apos;amélioration de l&apos;accessibilité)
             devient une obligation pour la plupart des entreprises, sous peine
-            d&apos;amendes. Un audits UX garantit une{" "}
+            d&apos;amendes. Un audit UX garantit une{" "}
             <strong>conformité totale</strong>, offrant aux clients la
             tranquillité d&apos;esprit face aux exigences légales. Cette
             approche proactive renforce{" "}
@@ -38,7 +38,7 @@ export default function UXMatterSection() {
             concerne les critères de contraste. Cela se traduit par des
             interfaces conçues pour répondre aux{" "}
             <strong>normes internationales d&apos;accessibilité</strong>. En
-            assurant une expérience utilisateur optimale, les audits UX plaçent
+            assurant une expérience utilisateur optimale, les audits UX placent
             les clients en avant sur le plan concurrentiel, renforçant leur
             réputation et <strong>élargissant leur audience</strong>, créant
             ainsi des opportunités commerciales plus importantes.

@@ -6,8 +6,8 @@ export default function CTASection1() {
           Vous cherchez un audit UX ?
         </h2>
         <p className="sm:mx-auto mx-6 mt-6 max-w-xl text-md lg:text-lg leading-8 text-gray-300">
-          Cela vous a éclairé sur les audits UX ? Si cela vous intéresse
-          BearStudio vous propose de le faire !
+          Les audits UX vous semblent plus clairs ? Si ça vous intéresse
+          BearStudio vous propose de faire le vôtre !
         </p>
         <section className="mt-10 flex items-center justify-center gap-x-6">
           <a
