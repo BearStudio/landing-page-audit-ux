@@ -1,4 +1,4 @@
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import React from "react";
 
@@ -70,7 +70,7 @@ export default function FAQSection() {
               {({ open }) => (
                 <>
                   <dt>
-                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-3 lg:p-4 rounded-lg">
+                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white bg-secondary p-3 lg:p-4 rounded-lg cursor-pointer">
                       <h3 className="text-md lg:text-xl leading-7">
                         {faq.question}
                       </h3>
@@ -89,18 +89,27 @@ export default function FAQSection() {
                       </figure>
                     </Disclosure.Button>
                   </dt>
-                  <Disclosure.Panel
-                    as="dd"
-                    className="mt-2 pr-12 text-lg text-gray-800"
+                  <Transition
+                    enter="transition duration-600 ease-out"
+                    enterFrom="transform scale-95 opacity-0"
+                    enterTo="transform scale-100 opacity-100"
+                    leave="transition duration-200 ease-out"
+                    leaveFrom="transform scale-100 opacity-100"
+                    leaveTo="transform scale-95 opacity-0"
                   >
-                    {faq.answer.split("\n").map((paragraph) => (
-                      <>
-                        <p key={paragraph} className="mb-4 ml-8">
-                          {paragraph}
-                        </p>
-                      </>
-                    ))}
-                  </Disclosure.Panel>
+                    <Disclosure.Panel
+                      as="dd"
+                      className="mt-2 pr-12 text-lg text-gray-800"
+                    >
+                      {faq.answer.split("\n").map((paragraph) => (
+                        <>
+                          <p key={paragraph} className="mb-4 ml-8">
+                            {paragraph}
+                          </p>
+                        </>
+                      ))}
+                    </Disclosure.Panel>
+                  </Transition>
                 </>
               )}
             </Disclosure>

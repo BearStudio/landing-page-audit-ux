@@ -8,7 +8,7 @@ const features = [
   {
     name: "Optimisation de l'Expérience Utilisateur",
     description:
-      "L'audit UX, par une analyse approfondie, identifie les faiblesses de l'ergonomie et de la navigation, permettant une transformation vers une interface plus conviviale, garantissant ainsi une expérience utilisateur positive et satisfaisante.",
+      "L'audit UX, par une analyse approfondie, identifie les faiblesses de l'ergonomie et de la navigation, permettant une transformation vers une interface plus ergonomique, garantissant ainsi une expérience utilisateur positive et satisfaisante.",
     icon: UsersIcon,
   },
   {
@@ -33,7 +33,7 @@ export default function FeatureSection() {
           <h2 className="text-3xl font-heading text-secondary sm:text-4xl">
             Pourquoi faire un audit UX ?
           </h2>
-          <p className="mt-6 text-md text-gray-600">
+          <p className="mt-10 text-md text-gray-600">
             Vous voulez améliorer l’expérience proposée par votre produit ?
             Votre interface ne semble pas adaptée aux besoins des utilisateurs ?
             Vous souhaitez booster la qualité de votre produit ? Découvrez ce

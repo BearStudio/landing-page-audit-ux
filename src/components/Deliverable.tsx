@@ -29,7 +29,7 @@ export default function DeliverableSection() {
           <h2 className="mt-2 text-3xl font-heading text-secondary sm:text-4xl">
             À quoi peut ressembler un audit UX ?
           </h2>
-          <p className="mt-6 text-lg text-gray-600">
+          <p className="mt-10 text-lg text-gray-600">
             Le processus d&apos;audit UX s&apos;articule autour de plusieurs
             étapes clés : l&apos;analyse approfondie du contexte du projet, la
             définition précise des objectifs de l&apos;audit, et la formulation

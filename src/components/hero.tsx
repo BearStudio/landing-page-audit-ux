@@ -15,7 +15,7 @@ export default function HeroSection() {
           <h1 className="text-3xl font-heading text-primary sm:text-5xl px-4">
             Qu&apos;est-ce qu&apos;un audit UX ?
           </h1>
-          <p className="mt-6 text-md lg:text-xl mx-4 font-bold leading-8 text-gray-300">
+          <p className="mt-10 text-md lg:text-xl mx-4 font-bold leading-8 text-gray-300">
             Vous pensez avoir besoin d’un audit UX ? Ou vous ne savez pas
             vraiment en quoi cela consiste ? Vous vous demandez si votre produit
             respecte les réglementations d&apos;ergonomie et

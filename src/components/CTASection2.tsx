@@ -8,7 +8,7 @@ export default function CTASection1() {
         <p className="sm:mx-auto mx-6 mt-6 max-w-xl text-md lg:text-lg leading-8 text-gray-300">
           Vous voulez faire un premier état des lieux de votre projet ?
           N&apos;hésitez pas à faire un mini audit UX <strong>gratuit </strong>
-          avec le BearStudio.
+          avec BearStudio.
         </p>
         <section className="mt-10 flex items-center justify-center gap-x-6">
           <a
