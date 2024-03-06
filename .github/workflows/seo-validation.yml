@@ -1,0 +1,24 @@
+name : seo-validation
+on : 
+   push : 
+       branches : main
+jobs : 
+   binoculars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir /tmp/artifacts
+      - name: Run Binoculars
+        uses: foo-software/binoculars-action@master
+        with:
+          branch: ${{ github.ref }}
+          enableComments: true
+          minScore: 95
+          outputDirectory: /tmp/artifacts
+          urls: 'https://landing-page-audit-ux.vercel.app|https://landing-page-audit-ux.vercel.app/lighthouse'
+          sha: ${{ github.sha }}
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Binoculars reports
+          path: /tmp/artifacts
