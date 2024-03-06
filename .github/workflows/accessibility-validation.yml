@@ -1,11 +1,10 @@
-name : accessibility-validation
-on : deployment
-jobs : 
-    Web-Accessibility-Evaluation : 
+name: accessibility-validation
+on:
+  deployment
+jobs:
+  Web-Accessibility-Evaluation:
     runs-on: ubuntu-latest
     steps:
-      uses: a11ywatch/github-actions@v2.1.10
+      - uses: a11ywatch/github-actions@v2.1.10
         with:
-          # Website domain to scan
           WEBSITE_URL: 'https://landing-page-audit-ux.vercel.app'
-                
