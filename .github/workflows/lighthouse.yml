@@ -10,7 +10,6 @@ jobs:
         timeout-minutes: 5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v4
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v11
         with:
