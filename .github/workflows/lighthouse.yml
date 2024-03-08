@@ -1,7 +1,7 @@
 name: Lighthouse CI
 on: deployment
 jobs:
-  GetUrl:
+  lighthouse:
     runs-on: ubuntu-latest
     steps:
       - name: Get deployment URL
